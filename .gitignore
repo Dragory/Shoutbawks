@@ -1,2 +1,6 @@
 # Files/packages loaded by Composer
 /vendor
+/composer.lock
+
+# Configuration
+/app/config.php
