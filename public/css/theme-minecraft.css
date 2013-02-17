@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Minecraftia';
+	src: url('fonts/Minecraftia.eot');
+	src: local('☺'), url('fonts/Minecraftia.woff') format('woff'), url('fonts/Minecraftia.ttf') format('truetype'), url('fonts/Minecraftia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#shoutbawks {
+	font: 16px/1.4 'Minecraftia', Verdana, sans-serif;
+}

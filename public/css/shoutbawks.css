@@ -1,0 +1,176 @@
+/*@font-face {
+	font-family: 'Minecraftia';
+	src: url('fonts/Minecraftia.eot');
+	src: local('☺'), url('fonts/Minecraftia.woff') format('woff'), url('fonts/Minecraftia.ttf') format('truetype'), url('fonts/Minecraftia.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+#shoutbawks {
+	font: 12px/1.4 'Verdana', sans-serif;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #375885;
+	border-top: none;
+}
+
+.shoutbawks-clear:before, .shoutbawks-clear:after {
+	content: ' ';
+	display: table;
+}
+.shoutbawks-clear:after {
+	clear: both;
+}
+.shoutbawks-clear {
+	*zoom: 1;
+}
+
+#shoutbawks-chat {
+	position: relative;
+}
+#shoutbawks-actions-right {
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+#shoutbawks-actions {
+	position: relative;
+	padding: 4px 8px;
+	background-color: #E7EBEE;
+	border-bottom: 1px solid #91A3BD;
+	/*font: normal 8px/1 'Minecraftia', Verdana, sans-serif;
+	text-transform: uppercase;*/
+}
+#shoutbawks-actions a {
+	color: #444;
+	padding: 0 10px 0 0;
+	text-decoration: none;
+}
+#shoutbawks-actions a:hover {
+	color: #888;
+}
+#shoutbawks-actions img {
+	/*vertical-align: -4px;*/
+	vertical-align: bottom;
+}
+	.shoutbawks-status-msg {
+		background-color: #fff;
+		padding: 2px 4px;
+		margin: 0 0 8px 0;
+		border: 1px solid #aaa;
+		border-radius: 2px;
+		box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+	}
+
+#shoutbawks-button-join {
+	background-color: #E7EBEE;
+	padding: 4px;
+}
+#shoutbawks-message-area {
+	height: 200px;
+	overflow: auto;
+	border-bottom: 1px solid #91A3BD;
+}
+#shoutbawks-send {
+	background-color: #E7EBEE;
+	padding: 4px 8px;
+}
+.shoutbawks-form-section {
+	float: left;
+}
+#shoutbawks-input-message {
+	width: 100%;
+}
+
+#shoutbawks-form-user {
+	padding: 0 8px 0 0;
+	line-height: 26px;
+}
+#shoutbawks-form-send {
+	padding: 0 0 0 8px;
+}
+
+.shoutbawks-message-system {
+	padding: 0 0 0 8px;
+	font-weight: bold;
+}
+
+.shoutbawks-message-info {
+	vertical-align: top;
+	white-space: nowrap;
+	padding: 0;
+	color: #888;
+}
+.shoutbawks-sender {
+	font-weight: bold;
+}
+
+.shoutbawks-message-content {
+	vertical-align: top;
+	padding: 0 0 0 4px;
+	word-break: break-all;
+}
+
+.shoutbawks-message-line-div {
+	padding: 2px 8px;
+}
+.shoutbawks-message-bg-2 {
+	background-color: #eee;
+}
+
+#shoutbawks-input-message {
+	/*width: 75%;*/
+}
+
+.shoutbawks-message-pending {
+	font-style: italic;
+}
+
+/* BBCodes and other such things */
+.shoutbawks-message-content .spoiler {
+	background-color: #888;
+	color: #888;
+
+	display: inline-block;
+	margin: -1px -2px;
+	padding: 1px 2px;
+	border-radius: 3px;
+}
+/*.shoutbawks-message-content .spoiler:hover,*/ .shoutbawks-message-content .spoiler-hover {
+	color: #fff;
+}
+
+.shoutbawks-message-content .quote {
+	/*color: #54ae38;*/
+	color: #3889ae;
+}
+
+.shoutbawks-message-content sup {
+	font-size: 0.8em;
+	vertical-align: super;
+	line-height: 0;
+}
+.shoutbawks-message-content sub {
+	font-size: 0.8em;
+	vertical-align: sub;
+	line-height: 0;
+}
+
+.shoutbawks-message-content sup * {
+	line-height: 1.4em;
+}
+.shoutbawks-message-content sub * {
+	line-height: 1.4em;
+}
+
+.shoutbawks-message-content .underline {
+	text-decoration: underline;
+}
+
+.shoutbawks-message-content .marquee-container {
+	display: inline-block;
+}
+.shoutbawks-message-content marquee {
+	padding: 0 40px;
+	margin: 0 -40px 0 0;
+}

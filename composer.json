@@ -1,0 +1,12 @@
+{
+    "require": {
+        "silex/silex": "1.0.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/libraries"
+        ]
+    }
+}
