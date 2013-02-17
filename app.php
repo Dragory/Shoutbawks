@@ -17,8 +17,8 @@ $config = include $paths['app'] . '/config.php';
 $app = new \Silex\Application();
 
 // Load the database handler
-$db = include_once($paths['app'] . '/database.php');
-DB::set($db);
+$db = include $paths['app'] . '/database.php';
+DB::__setFacadeObject($db);
 
 // Load our routes
 require_once $paths['app'] . '/routes.php';
