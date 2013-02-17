@@ -1,6 +1,7 @@
 {
     "require": {
-        "silex/silex": "1.0.*@dev"
+        "silex/silex": "1.0.*@dev",
+        "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
         "classmap": [
